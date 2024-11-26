@@ -1,0 +1,53 @@
+.landing {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #61dafb;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Personal Details Section */
+.personal-details {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-details h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.personal-details p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}

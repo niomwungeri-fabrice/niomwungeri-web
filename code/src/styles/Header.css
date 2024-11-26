@@ -1,0 +1,43 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a,
+.nav-links Link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links Link:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  height: 40px; /* Adjust the size of the logo */
+  width: auto;  /* Maintain aspect ratio */
+  display: inline-block;
+  vertical-align: middle; /* Align with the nav links */
+}
+
+.logo a {
+  text-decoration: none;
+}
+
